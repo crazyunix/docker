@@ -6,3 +6,4 @@ RUN qpt-get -y install nginx
 RUN mkdir -p /var/www/html
 #ADD xx.conf /etc/nginx/conf.d/
 EXPOSE 80
+CMD ["/usr/sbin/nginx"]
